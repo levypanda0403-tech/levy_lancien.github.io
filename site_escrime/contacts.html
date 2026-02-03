@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contacts - LeFleuret.com</title>
+    </head>
+    <body>
+
+        <!-- EN-TETE -->
+
+        <div class="en-tete">
+            <header>
+                <h1>LeFleuret.com</h1>
+                <h2>L'escrime en un seul site</h2>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">Le club</a></li>
+                        <li><a href="les_tournois.html">Les tournois</a></li>
+                        <li><a href="magasin.html">Le magasin</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <!-- Formulaire -->
+
+        <div class="formulaire">
+            <h2>Envoyez nous un message !</h2>
+            <table>
+                <form action="form.php" method="post">
+                    <tr>
+                        <td>Nom</td>
+                        <td><input type="text" name="nom_user" placeholder="Entrez votre nom"></td>
+                    </tr>
+                    <tr>
+                        <td>Prénom</td>
+                        <td><input type="text" name="prenom_user" placeholder="Entrez votre prénom"></td>
+                    </tr>
+                    <tr>
+                        <td>Votre message :</td>
+                        <td><input type="text" name="message_user" placeholder="Ecrivez votre message ici"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Envoyer"></td>
+                        <td><input type="reset" value="Annuler"></td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+    </body>
+</html>
