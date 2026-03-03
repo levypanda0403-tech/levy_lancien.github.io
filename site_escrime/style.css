@@ -1,9 +1,12 @@
 body{
     font-family: Georgia, serif;
+    justify-content: center;
+    background: #353652;
 }
 
 .en-tete{
-    background-image: url(images/image_escrime_3.jpg);
+    background: #5c376e;
+    background: linear-gradient(90deg, rgba(92, 55, 110, 1) 0%, rgba(87, 126, 199, 1) 50%, rgba(187, 138, 235, 1) 100%);
     background-size: fill;
     text-align: center;
     text-size-adjust: 150%;
@@ -14,7 +17,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(72, 56, 97);
+    background: #5c376e;
+    background: linear-gradient(90deg, rgba(92, 55, 110, 1) 0%, rgba(87, 126, 199, 1) 50%, rgba(187, 138, 235, 1) 100%);
     padding: 0.5em 1em;
     color: white;
 }
@@ -38,4 +42,17 @@ button{
 
 button:hover{
     background-color: blueviolet;
+}
+
+.card-img-top{
+    float: left;
+}
+
+.card-body{
+    float: right;
+}
+
+.formulaire{
+    background: white;
+    margin-right: 75%;
 }
