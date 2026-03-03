@@ -1,0 +1,41 @@
+body{
+    font-family: Georgia, serif;
+}
+
+.en-tete{
+    background-image: url(images/image_escrime_3.jpg);
+    background-size: fill;
+    text-align: center;
+    text-size-adjust: 150%;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(72, 56, 97);
+    padding: 0.5em 1em;
+    color: white;
+}
+
+.navlink{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+}
+
+.navlink a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+button{
+    background-color: rgb(72, 56, 97);
+}
+
+button:hover{
+    background-color: blueviolet;
+}
